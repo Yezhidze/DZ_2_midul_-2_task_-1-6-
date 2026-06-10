@@ -6,13 +6,12 @@ return;
 void menu()
 {
     Console.WriteLine("=====МЕНЮ=====");
-    Console.WriteLine("Задание 1. Fizz, Buzz, Fizz Buzz и число.");
-    Console.WriteLine("Задание 2. Поиск процента от числа.");
-    Console.WriteLine("Задание 3. Создание числа из цифр.");
-    Console.WriteLine("Задание 4. Свап цифр в числе.");
-    Console.WriteLine("Задание 5. Отображение календаря.");
-    Console.WriteLine("Задание 6. Конвертация температуры.");
-    Console.WriteLine("Задание 7. Чётные числа в диапазоне.");
+    Console.WriteLine("Задание 1. Математические манипуляции с массивами.");
+    Console.WriteLine("Задание 2. Поиск суммы двумерного массива.");
+    Console.WriteLine("Задание 3. Шифр Цезаря (шифратор и дешифратор).");
+    Console.WriteLine("Задание 4. Умножение на число, сумма и произведение массивов.");
+    Console.WriteLine("Задание 5. Ввод арифметического выражения, чтение и вывод результата.");
+    Console.WriteLine("Задание 6. Изменение регистра первых букв предложений из нижнего в вверхний регистр.");
 
     Console.WriteLine("\nВыберете задание: ");
     var enter = Convert.ToInt32(Console.ReadLine());
